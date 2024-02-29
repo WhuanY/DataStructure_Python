@@ -78,3 +78,29 @@
         | n^2        | 平方    |
         | n^3        | 立方    |
         | 2^n        | 指数    |
+### 一个示例问题-”变位词判断问题“
+- 核心：解决问题的不同方案复杂度不同。
+- [变位词判断问题](/算法分析/变位词判断问题[同一问题的不同算法的复杂度].ipynb)
+    - 注意：时间和空间的权衡。
+### Python数据类型的性能
+- 评估python的list和dict两种数据类型的性能。
+    - 20%的功能实现80%的结果--〉让20%的功能跑得最快。
+    -  Operation          | Big-O Efficiency |
+|--------------------|------------------|
+| index []           | O(1)             |
+| index assignment   | O(1)             |
+| append             | O(1)             |
+| pop()              | O(1)             |
+| pop(i)             | O(n)             |
+| insert(i,item)     | O(n)             |
+| del operator       | O(n)             |
+| iteration          | O(n)             |
+| contains (in)      | O(n)             |
+| get slice [x:y]    | O(k)             |
+| del slice          | O(n)             |
+| set slice          | O(n+k)           |
+| reverse            | O(n)             |
+| concatenate        | O(k)             |
+| sort               | O(n log n)       |
+| multiply           | O(nk)            |
+- list.pop() 和 list.pop(i) 复杂度的权衡
