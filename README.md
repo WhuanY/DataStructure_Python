@@ -104,3 +104,9 @@
 | sort               | O(n log n)       |
 | multiply           | O(nk)            |
 - list.pop() 和 list.pop(i) 复杂度的权衡
+    - list.pop() 的复杂度是O()
+    - list.pop(i) 的复杂度是O(n)
+        - pop(i) 的实现方式是将移除元素后面的元素分别向前移动。比较麻烦
+        - 但是这种方式保证了列表索引方式的实现复杂度为O(1)
+        - 保证了复杂度的权衡。
+    - [list.pop()](算法分析/time.ipynb)的计时实验
