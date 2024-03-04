@@ -129,6 +129,7 @@
 - 栈是一种有次序的数据项集合。在栈中，每个数据项仅从“栈顶”一端加入、移出。
     - 栈顶Top， 栈底称为Base
     - 栈的次序是LIFO(Last In First Out)
+    - **后进先出**
 - 应用
     - [括号匹配](算法分析/stack.ipynb)
         ![Alt text](image-1.png)
