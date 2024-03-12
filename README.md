@@ -167,3 +167,7 @@
         - ![Alt text](imgs/image-2.png)
         - 调用次序和弹出次序相反
     - 特殊的错误：RecursionError,当调用所需要的栈层数超过了系统设置的限度
+- 递归可视化
+    - [算法分析/【recursive】递归可视化.ipynb](螺旋)
+    - 分形
+    
